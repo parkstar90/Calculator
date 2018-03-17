@@ -6,7 +6,7 @@ public class Main {
         int result = calculator.sum(3, 5);
         System.out.println(result);
 
-        int subResult = calculator.sub(5,2);
+        int subResult = calculator.sub(5, 2);
         System.out.println(subResult);
     }
 }
