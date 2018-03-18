@@ -21,4 +21,15 @@ public class Calculator {
     public int sub(int a, int b){
         return a - b;
     }
+
+    /**
+     * a * b 를 리턴한다.
+     *
+     * @param a
+     * @param b
+     * @return
+     */
+    public int  mul(int a, int b){
+        return a * b;
+    }
 }
