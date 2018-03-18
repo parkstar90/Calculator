@@ -7,7 +7,7 @@ public class Calculator {
      * @param b
      * @return
      */
-    public int sum(int a, int b){
+    public int sum(int a, int b) {
         return a + b;
     }
 
@@ -18,7 +18,7 @@ public class Calculator {
      * @param b
      * @return
      */
-    public int sub(int a, int b){
+    public int sub(int a, int b) {
         return a - b;
     }
 
@@ -29,7 +29,18 @@ public class Calculator {
      * @param b
      * @return
      */
-    public int  mul(int a, int b){
+    public int mul(int a, int b) {
         return a * b;
+    }
+
+    /**
+     * a / b 를 리턴한다.
+     *
+     * @param a
+     * @param b
+     * @return
+     */
+    public int division(int a, int b) {
+        return a / b;
     }
 }
