@@ -8,5 +8,11 @@ public class Main {
 
         int subResult = calculator.sub(5, 2);
         System.out.println(subResult);
+
+        int mulResult = calculator.mul(6, 3);
+        System.out.println(mulResult);
+
+        int divi = calculator.division(5, 2);
+        System.out.println(divi);
     }
 }
